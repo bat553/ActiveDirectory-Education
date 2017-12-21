@@ -14,7 +14,7 @@ Un Windows Serveur 2008 R2 mini (testé sur windows server 2012)
 
 Le module powershell [NTFSSecurity](https://www.powershellgallery.com/packages/NTFSSecurity)
 
-#### Arborescences
+#### Arborescence
 
 
 Dans le dossier de votre choix. Ex.:C:\Users\Administrateur\Documents\
@@ -50,16 +50,27 @@ Nom,Ne(e) le
 "Karl Marx",05/05/1818
 ```
 
+### VARIABLES (en début de fichier)
+
+* $path → Dossier racine de l'arborescence. Ex.:  C:\Users\Administrateur\Documents\
+* $ADpath → Chemin vers la racine de l'annuaire Active-Directory (OU=Membres,DC=exemple,DC=local)
+* $ADname → Nom DNS de l'AD (SRV1)
+* $protection → Protection des OU contre la suppression (0 = Non, 1 = OUI)
+* $newpath → Chemin vers le nouveau dossier (E:\Data\NewFolder\)
+* $oldpath → Chemin vers l'ancien dossier (D:\Data\OldFolder\)
+* $servername → Nom NETBIOS du serveur (SRV1)
+* $letter → Lettre du lecteur réseau (H:)
+
 ---
 
-### Utilisation
+## Utilisation
 
-Le script ce déroule en 4 parties indépendantes 
+Le script se déroule en 4 parties indépendantes 
 
 * 0_setup_user.ps1 → Crée les utilisateurs à partir des fichiers dans l'arborescence 
-* 1_setup_group.ps1 → Ajoute les utilisateurs aux groupes classes
+* 1_setup_group.ps1 → Ajoute l'utilisateur a son groupe classe
 * 2_setup_folders.ps1 → Crée l'arborescence
-* 3_setup_smb.ps1 → Crée les partages windows et ajoute les dossiers personnels à l'utilisateur
+* 3_setup_smb.ps1 → Crée le partage windows et ajoute le dossier personnel à l'utilisateur
 
 
 
@@ -68,4 +79,8 @@ Le script ce déroule en 4 parties indépendantes
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
+---
+
+Ce script a été crée dans le cadre de mon stage dans un établissement scolaire. 
+Il s'agit de mon premier vrai travail avec PowerShell. Merci d'être indulgent que la quatité du code :-)
 
