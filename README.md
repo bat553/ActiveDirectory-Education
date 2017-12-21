@@ -28,7 +28,6 @@ Dans le dossier de votre choix. Ex.:C:\Users\Administrateur\Documents\
       → Profs
         → PROFS_*CLASSE*.txt (La liste des profs pour chaque classe. Ref.: Profs_exemple.txt)
         
----
 
 #### FORMATAGE DES LISTES
 
@@ -72,7 +71,7 @@ Le script se déroule en 4 parties indépendantes
 * 2_setup_folders.ps1 → Crée l'arborescence
 * 3_setup_smb.ps1 → Crée le partage windows et ajoute le dossier personnel à l'utilisateur
 
-
+---
 
 ## License
 
