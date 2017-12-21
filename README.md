@@ -8,7 +8,7 @@ Ce script est destiné à la création d'un serveur ActiveDirectory fonctionnel 
 
 ## INSTALLATION
 
-### REQUIREMENT
+#### REQUIREMENT
 
 Un Windows Serveur 2008 R2 mini (testé sur windows server 2012)
 
@@ -49,7 +49,7 @@ Nom,Ne(e) le
 "Karl Marx",05/05/1818
 ```
 
-### VARIABLES (en début de fichier)
+#### VARIABLES (en début de fichier)
 
 * $path → Dossier racine de l'arborescence. Ex.:  C:\Users\Administrateur\Documents\
 * $ADpath → Chemin vers la racine de l'annuaire Active-Directory (OU=Membres,DC=exemple,DC=local)
