@@ -10,7 +10,7 @@ Ce script est destiné à la création d'un serveur ActiveDirectory fonctionnel 
 
 #### REQUIREMENT
 
-Un Windows Serveur 2008 R2 mini (testé sur windows server 2012)
+Un Windows Serveur 2012 R2 mini (testé sur windows server 2012)
 
 **Le module powershell [NTFSSecurity](https://www.powershellgallery.com/packages/NTFSSecurity)**
 
