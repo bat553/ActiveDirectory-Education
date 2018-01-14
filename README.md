@@ -14,6 +14,8 @@ Un Windows Serveur 2008 R2 mini (testé sur windows server 2012)
 
 Le module powershell [NTFSSecurity](https://www.powershellgallery.com/packages/NTFSSecurity)
 
+L'OU 'Membres' crée à la racine de votre annuaire 
+
 #### Arborescence
 
 
