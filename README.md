@@ -85,5 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Ce script a été crée dans le cadre de mon stage dans un établissement scolaire. 
-Il s'agit de mon premier vrai travail avec PowerShell. Merci d'être indulgent que la quatité du code :-)
+Il s'agit de mon premier vrai travail avec PowerShell. Merci d'être indulgent avec la quatité de mon code :-)
 
