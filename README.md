@@ -12,9 +12,11 @@ Ce script est destiné à la création d'un serveur ActiveDirectory fonctionnel 
 
 Un Windows Serveur 2008 R2 mini (testé sur windows server 2012)
 
-Le module powershell [NTFSSecurity](https://www.powershellgallery.com/packages/NTFSSecurity)
+**Le module powershell [NTFSSecurity](https://www.powershellgallery.com/packages/NTFSSecurity)**
 
-L'OU 'Membres' crée à la racine de votre annuaire 
+**L'OU 'Membres' crée à la racine de votre annuaire**
+
+**Désactiver les stratégies de complexité des mots de passe** 
 
 #### Arborescence
 
