@@ -1,6 +1,6 @@
 # ActiveDirectory-Education
 
-#### Script powershell pour créer l'ActiveDirectory simple (Groupe classe, dossier personnel élève, partages classes, permission dossiers....). 
+#### Script powershell pour créer un annuaire ActiveDirectory ainsi que ses recsources annexes (Groupe classe, dossier personnel élève, partages classes, permission NTFS des dossiers....). 
 
 Ce script est destiné à la création d'un serveur ActiveDirectory fonctionnel pour un établissement scolaire
 
@@ -85,5 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Ce script a été crée dans le cadre de mon stage dans un établissement scolaire. 
-Il s'agit de mon premier vrai travail avec PowerShell. Merci d'être indulgent avec la quatité de mon code :-)
+Il s'agit de mon premier vrai travail avec PowerShell. La qualité du code est sans doute à revoir :-)
 
