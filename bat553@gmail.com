@@ -1,6 +1,6 @@
 # ActiveDirectory-Education
 
-#### Script powershell pour créer un annuaire ActiveDirectory ainsi que ses recsources annexes (Groupe classe, dossier personnel élève, partages classes, permission NTFS des dossiers....). 
+#### Script powershell pour créer un annuaire ActiveDirectory ainsi que ses ressources annexes (Groupe classe, dossier personnel élève, partages classes, permission NTFS des dossiers....). 
 
 Ce script est destiné à la création d'un serveur ActiveDirectory fonctionnel pour un établissement scolaire
 
